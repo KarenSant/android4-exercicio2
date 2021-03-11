@@ -55,6 +55,7 @@ public class CorrecaoTest {
         onView(withId(R.id.editText))
                 .perform(typeText("Sicrano"));
 
+        Espresso.closeSoftKeyboard();
         onView(withId(R.id.btnConfirmar))
                 .perform(click());
 
@@ -70,6 +71,7 @@ public class CorrecaoTest {
         onView(withId(R.id.editText))
                 .perform(typeText("Sicrano"));
 
+        Espresso.closeSoftKeyboard();
         onView(withId(R.id.btnCancelar))
                 .perform(click());
 
@@ -85,7 +87,7 @@ public class CorrecaoTest {
         onView(withId(R.id.editText))
                 .perform(typeText("Sicrano"));
 
-        Espresso.pressBack();
+        Espresso.closeSoftKeyboard();
         Espresso.pressBack();
 
         onView(withId(R.id.textView))
@@ -100,6 +102,7 @@ public class CorrecaoTest {
         onView(withId(R.id.editText))
                 .perform(typeText("Beltrano"));
 
+        Espresso.closeSoftKeyboard();
         onView(withId(R.id.btnConfirmar))
                 .perform(click());
 
@@ -118,6 +121,7 @@ public class CorrecaoTest {
         onView(withId(R.id.editText))
                 .perform(typeText("Beltrano"));
 
+        Espresso.closeSoftKeyboard();
         onView(withId(R.id.btnConfirmar))
                 .perform(click());
 
@@ -127,6 +131,7 @@ public class CorrecaoTest {
         onView(withId(R.id.editText))
                 .perform(clearText());
 
+        Espresso.closeSoftKeyboard();
         onView(withId(R.id.btnConfirmar))
                 .perform(click());
 
@@ -142,6 +147,7 @@ public class CorrecaoTest {
         onView(withId(R.id.editText))
                 .perform(typeText("Beltrano"));
 
+        Espresso.closeSoftKeyboard();
         onView(withId(R.id.btnConfirmar))
                 .perform(click());
 
@@ -159,6 +165,7 @@ public class CorrecaoTest {
         onView(withId(R.id.editText))
                 .perform(typeText("Beltrano"));
 
+        Espresso.closeSoftKeyboard();
         onView(withId(R.id.btnConfirmar))
                 .perform(click());
 
